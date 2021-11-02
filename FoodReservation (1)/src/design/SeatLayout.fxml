@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <CheckBox layoutX="128.0" layoutY="557.0" mnemonicParsing="false" />
+      <CheckBox layoutX="536.0" layoutY="557.0" mnemonicParsing="false" />
+      <CheckBox layoutX="70.0" layoutY="557.0" mnemonicParsing="false" />
+      <CheckBox layoutX="128.0" layoutY="406.0" mnemonicParsing="false" />
+      <CheckBox layoutX="80.0" layoutY="15.0" mnemonicParsing="false" />
+      <CheckBox layoutX="70.0" layoutY="406.0" mnemonicParsing="false" />
+      <CheckBox layoutX="488.0" layoutY="557.0" mnemonicParsing="false" />
+      <CheckBox layoutX="488.0" layoutY="406.0" mnemonicParsing="false" />
+      <CheckBox layoutX="536.0" layoutY="406.0" mnemonicParsing="false" />
+      <CheckBox layoutX="80.0" layoutY="161.0" mnemonicParsing="false" />
+      <CheckBox layoutX="527.0" layoutY="15.0" mnemonicParsing="false" />
+      <Label layoutX="520.0" layoutY="277.0" rotate="90.0" text="window view" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="104.0" layoutX="59.0" layoutY="438.0" stroke="BLACK" strokeType="INSIDE" width="102.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="104.0" layoutX="467.0" layoutY="438.0" stroke="BLACK" strokeType="INSIDE" width="102.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="104.0" layoutX="486.0" layoutY="45.0" stroke="BLACK" strokeType="INSIDE" width="102.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="361.0" layoutX="202.0" layoutY="97.0" stroke="BLACK" strokeType="INSIDE" width="228.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="104.0" layoutX="39.0" layoutY="45.0" stroke="BLACK" strokeType="INSIDE" width="102.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="303.0" layoutX="273.0" layoutY="155.0" stroke="BLACK" strokeType="INSIDE" width="87.0" />
+   </children>
+</AnchorPane>

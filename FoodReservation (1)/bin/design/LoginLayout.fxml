@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <Button layoutX="456.0" layoutY="287.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="67.0" text="로그인" />
+      <Button layoutX="358.0" layoutY="287.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="67.0" text="회원가입" />
+      <TextField layoutX="392.0" layoutY="148.0" prefHeight="46.0" prefWidth="182.0" />
+      <PasswordField layoutX="392.0" layoutY="214.0" prefHeight="46.0" prefWidth="182.0" />
+      <Button layoutX="223.0" layoutY="494.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="155.0" text="음식점이 처음이신가요?" />
+      <ImageView fitHeight="268.0" fitWidth="262.0" layoutX="32.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/logo-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="48.0" layoutX="344.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/avata.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="48.0" layoutX="344.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/key.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

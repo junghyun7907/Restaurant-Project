@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <ImageView fitHeight="233.0" fitWidth="334.0" layoutX="184.0" layoutY="-47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/logo-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="159.0" layoutY="129.0" text="- 마스크 미착용 손님은 입장이 불가합니다">
+         <font>
+            <Font name="Yu Gothic UI Semilight" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="161.0" layoutY="186.0" text="- 저희는 5인 이상의 손님을 받지 않습니다">
+         <font>
+            <Font name="Yu Gothic UI Semilight" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="192.0" layoutY="245.0" text="- 외부음식은 반입이 불가합니다">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="300.0" text="- 저희 서비스에는 영유아 손님을 위한전자레인지가 준비되어 있습니다">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="360.0" text="-  와인이나 생맥주를 주문 할 시 무제한으로 이용 가능합니다">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="401.0" prefHeight="27.0" prefWidth="570.0" text="- 샐러드바 이용 시 반드시 마스크 착용과 일회용 위생장갑을 사용해주시기 바랍니다">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="234.0" layoutY="479.0" text="이 점 유의 바랍니다">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="510.0" text="감사합니다">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="482.0" layoutY="504.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="57.0" text="확인" />
+   </children>
+</AnchorPane>

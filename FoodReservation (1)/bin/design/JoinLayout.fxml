@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <ImageView fitHeight="221.0" fitWidth="224.0" layoutX="190.0" layoutY="-44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/logo-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="202.0" layoutY="185.0" prefHeight="49.0" prefWidth="220.0" />
+      <TextField layoutX="202.0" layoutY="262.0" prefHeight="49.0" prefWidth="220.0" />
+      <TextField layoutX="202.0" layoutY="340.0" prefHeight="49.0" prefWidth="220.0" />
+      <ImageView fitHeight="49.0" fitWidth="55.0" layoutX="148.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/avata.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="49.0" fitWidth="55.0" layoutX="147.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/key.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="49.0" fitWidth="55.0" layoutX="156.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/phone.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="236.0" layoutY="451.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="128.0" text="확인" />
+   </children>
+</AnchorPane>
